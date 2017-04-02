@@ -1,6 +1,6 @@
 <?php
-set_time_limit(0);
-//error_reporting(0);
+set_time_limit(10);
+error_reporting(1);
 
 if(isset($_GET['key']) == "doom") {
     class sell {
